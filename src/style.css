@@ -1,0 +1,21 @@
+h2 {
+    font-family: serif;
+    font-weight: 400;
+    color: rgb(105, 30, 53);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+body {
+    background: #fff2f0;
+}
+
+div#tabla {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 1em;
+}
+
+#tabla .encabezado {
+    font-weight: 600;
+}
