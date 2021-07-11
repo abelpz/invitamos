@@ -5,10 +5,12 @@ const normalizeText = str => encodeURIComponent(str.normalize('NFD').replace(/\p
 //${guests.length > 1 ? 'Les' : 'Te'}
 
 let whatsappMessage = (guest, guests) => `
+
 Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, Estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
 `
 
 let emailMessage = (guest, guests) => `
+
 Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, Estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
 `
 
