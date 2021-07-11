@@ -6,12 +6,12 @@ const normalizeText = str => encodeURIComponent(str.normalize('NFD').replace(/\p
 
 let whatsappMessage = (guest, guests) => `
 
-Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, Estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
+Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
 `
 
 let emailMessage = (guest, guests) => `
 
-Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, Estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
+Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
 `
 
 const guestsTable = []
@@ -64,10 +64,6 @@ const fillTable = function (guestsTable) {
             let MembersColumn = document.createElement('div')
             MembersColumn.classList.add('miembros')
             GuestTable.appendChild(MembersColumn)
-
-            let InviteColumn = document.createElement('div')
-            InviteColumn.classList.add('invitacion')
-            GuestTable.appendChild(InviteColumn)
             
             let WhatsappColumn = document.createElement('div')
             WhatsappColumn.classList.add('whatsapp')
@@ -76,13 +72,17 @@ const fillTable = function (guestsTable) {
             let EmailColumn = document.createElement('div')
             EmailColumn.classList.add('email')
             GuestTable.appendChild(EmailColumn)
+
+            let InviteColumn = document.createElement('div')
+            InviteColumn.classList.add('invitacion')
+            GuestTable.appendChild(InviteColumn)
             
             GroupColumn.innerHTML = guestsRow.group
 
             MembersColumn.innerHTML = guestsRow.includes.join()
 
             InviteColumn.innerHTML = `
-                <a target="_blank" href="${guestsRow.inviteLink}">${guestsRow.inviteLink}</a>
+                <a target="_blank" href="${guestsRow.inviteLink}">Invitacion</a>
             `
             WhatsappColumn.innerHTML = `
                 ${guestsRow.whatsapp.map(
