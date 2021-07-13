@@ -87,7 +87,7 @@ const data = JSON.parse(`[
     "Enviado": "x",
     "nombre": "Adela",
     "apellido": "Mendoza",
-    "nombre del grupo": "Sres. Adela Mendoza y Agustín Jauregui",
+    "nombre del grupo": "Srs. Adela Mendoza y Agustín Jauregui",
     "grupo": 3,
     "email": "",
     "telefono": "+584169874748",
@@ -1176,7 +1176,7 @@ const data = JSON.parse(`[
     "link": ""
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Elías",
     "apellido": "Herrera",
     "nombre del grupo": "Sr. Elías Herrera",
@@ -1190,7 +1190,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrEliasHerrera"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Kevin",
     "apellido": "Herrera",
     "nombre del grupo": "Sr. Kevin Herrera",
@@ -1372,9 +1372,9 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
-    "nombre": "Dave",
-    "apellido": "Mckinnon",
+    "Enviado": "x",
+    "nombre": "Tío",
+    "apellido": "Dave",
     "nombre del grupo": "Flia. Mckinnon",
     "grupo": 49,
     "email": "",
@@ -1386,9 +1386,9 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaMckinnon"
   },
   {
-    "Enviado": "",
-    "nombre": "Luz Marina",
-    "apellido": "Mckinnon",
+    "Enviado": "x",
+    "nombre": "Tía",
+    "apellido": "Luz",
     "nombre del grupo": "",
     "grupo": 49,
     "email": "",
@@ -1398,6 +1398,20 @@ const data = JSON.parse(`[
     "parentezco": "Tía",
     "de": "Abel",
     "link": "https://abelyvaleska.com/invitacion/"
+  },
+  {
+    "Enviado": "",
+    "nombre": "Marco",
+    "apellido": "",
+    "nombre del grupo": "",
+    "grupo": 49,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Zoom",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
   },
   {
     "Enviado": "",
@@ -1498,7 +1512,7 @@ const data = JSON.parse(`[
     "link": ""
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Daniel",
     "apellido": "Pérez",
     "nombre del grupo": "Flia. Pérez Gálviz",
@@ -1512,7 +1526,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaPerez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Andrea",
     "apellido": "de Pérez",
     "nombre del grupo": "",
@@ -1526,7 +1540,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Adrián Daniel",
     "apellido": "Pérez",
     "nombre del grupo": "",
@@ -1540,7 +1554,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Carlos",
     "apellido": "Pérez",
     "nombre del grupo": "Sr. Carlos Pérez",
@@ -1554,13 +1568,13 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtoCarlosPerez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Reina",
     "apellido": "Arteaga",
     "nombre del grupo": "Sra. Reina Arteaga",
     "grupo": 56,
     "email": "",
-    "telefono": "584141912724",
+    "telefono": "",
     "otro contacto": "",
     "tipo": "Zoom",
     "parentezco": "",
@@ -1977,7 +1991,7 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Arelys",
     "apellido": "Lameda",
-    "nombre del grupo": "Sra. Arelys Lameda",
+    "nombre del grupo": "Hna. Arelys Lameda",
     "grupo": 71,
     "email": "arelyslameda@hotmail.com",
     "telefono": "+584142459059",
@@ -3584,7 +3598,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Francisco",
     "apellido": "Ibarra",
     "nombre del grupo": "Flia. Ibarra Castellanos",
@@ -3598,7 +3612,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaIbarraCastellanos"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Johana",
     "apellido": "de Ibarra",
     "nombre del grupo": "",
@@ -3612,7 +3626,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Samuel",
     "apellido": "Ibarra",
     "nombre del grupo": "",
@@ -3948,7 +3962,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Roberto",
     "apellido": "Miranda",
     "nombre del grupo": "Srs. Roberto y Elianne Miranda",
@@ -3962,7 +3976,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Elianne",
     "apellido": "de Miranda",
     "nombre del grupo": "",
@@ -3976,7 +3990,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Ángel",
     "apellido": "González",
     "nombre del grupo": "Flia. González Miranda",
@@ -3990,7 +4004,7 @@ const data = JSON.parse(`[
     "link": ""
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Claudia",
     "apellido": "de González",
     "nombre del grupo": "",
@@ -4004,7 +4018,7 @@ const data = JSON.parse(`[
     "link": ""
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Mateo",
     "apellido": "González",
     "nombre del grupo": "",
@@ -4074,7 +4088,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Luisa Amanda",
     "apellido": "García",
     "nombre del grupo": "Hna. Luisa Amanda García",
@@ -4200,7 +4214,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Ken",
     "apellido": "Jolley",
     "nombre del grupo": "Srs. Ken y Mary Ann Jolley",
@@ -4214,7 +4228,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrsKenyMaryAnnJolley"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Mary Ann",
     "apellido": "de Jolley",
     "nombre del grupo": "",
@@ -4350,7 +4364,7 @@ const data = JSON.parse(`[
     "otro contacto": "",
     "tipo": "Instagram",
     "parentezco": "Hermano Gente Cristiana",
-    "de": "Ambos",
+    "de": "Abel",
     "link": "https://abelyvaleska.com/invitacion/FliaMartinezGonzalez"
   },
   {
@@ -4364,7 +4378,7 @@ const data = JSON.parse(`[
     "otro contacto": "",
     "tipo": "Instagram",
     "parentezco": "Hermana Gente Cristiana",
-    "de": "Ambos",
+    "de": "Abel",
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
@@ -4376,9 +4390,9 @@ const data = JSON.parse(`[
     "email": "",
     "telefono": "",
     "otro contacto": "",
-    "tipo": "",
+    "tipo": "Instagram",
     "parentezco": "",
-    "de": "",
+    "de": "Abel",
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
@@ -4427,7 +4441,7 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Glizai",
     "apellido": "Hernández",
-    "nombre del grupo": "Srta. Gilzai Hernández",
+    "nombre del grupo": "Hna. Gilzai Hernández",
     "grupo": 159,
     "email": "gilhernandezojeda@gmail.com",
     "telefono": "",
@@ -4480,7 +4494,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "María Gabriela",
     "apellido": "Salazar",
     "nombre del grupo": "Srta. María Gabriela Salazar",
@@ -4502,9 +4516,9 @@ const data = JSON.parse(`[
     "email": "",
     "telefono": "",
     "otro contacto": "",
-    "tipo": "",
-    "parentezco": "",
-    "de": "",
+    "tipo": "Instagram",
+    "parentezco": "Hermano RAV",
+    "de": "Ambos",
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
@@ -4539,10 +4553,10 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Abraham",
     "apellido": "Velázquez",
-    "nombre del grupo": "Sr. Abraham Velazquez",
+    "nombre del grupo": "Srto. Abraham Velazquez",
     "grupo": 164,
     "email": "",
-    "telefono": "5491173633831",
+    "telefono": "",
     "otro contacto": "",
     "tipo": "Instagram",
     "parentezco": "Amigo",
@@ -4553,7 +4567,7 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Clexon",
     "apellido": "Rodríguez",
-    "nombre del grupo": "Pr. Clexon Rodríguez",
+    "nombre del grupo": "Flia. Rodríguez Bustamante",
     "grupo": 165,
     "email": "",
     "telefono": "",
@@ -4562,6 +4576,62 @@ const data = JSON.parse(`[
     "parentezco": "Amigo",
     "de": "Abel",
     "link": "https://abelyvaleska.com/invitacion/PrClexonRodriguez"
+  },
+  {
+    "Enviado": "",
+    "nombre": "Melissa",
+    "apellido": "de Rodríguez",
+    "nombre del grupo": "",
+    "grupo": 165,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Amigo",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Aura",
+    "apellido": "Rodríguez",
+    "nombre del grupo": "",
+    "grupo": 165,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Amigo",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Cleidibell",
+    "apellido": "Rodríguez",
+    "nombre del grupo": "",
+    "grupo": 165,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Amigo",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Abel",
+    "apellido": "Rodríguez",
+    "nombre del grupo": "",
+    "grupo": 165,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Amigo",
+    "de": "Abel",
+    "link": ""
   },
   {
     "Enviado": "x",
@@ -4592,7 +4662,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtaElenaGuevara"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Andrea",
     "apellido": "López",
     "nombre del grupo": "Sra. Andrea López",
@@ -4620,7 +4690,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtaSolmairaGarcia"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Morialis",
     "apellido": "Delgado",
     "nombre del grupo": "Srta. Morialis Delgado",
@@ -4634,7 +4704,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtaMorialisDelgado"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Estefanía",
     "apellido": "González",
     "nombre del grupo": "Sra. Estefanía González",
@@ -4732,7 +4802,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraMariaHeras"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Sara",
     "apellido": "Araujo",
     "nombre del grupo": "Srta. Sara Araujo",
@@ -4872,7 +4942,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtaAngelicaRodriguez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Rosiris",
     "apellido": "Azócar",
     "nombre del grupo": "Hna. Rosiris Azócar",
@@ -4886,7 +4956,7 @@ const data = JSON.parse(`[
     "link": ""
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Josefina",
     "apellido": "Espinoza",
     "nombre del grupo": "Flia. Espinoza",
@@ -5181,7 +5251,7 @@ const data = JSON.parse(`[
   },
   {
     "Enviado": "",
-    "nombre": "Lila",
+    "nombre": "Leela",
     "apellido": "Stonigthon",
     "nombre del grupo": "",
     "grupo": 209,
