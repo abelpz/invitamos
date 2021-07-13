@@ -87,7 +87,7 @@ const data = JSON.parse(`[
     "Enviado": "x",
     "nombre": "Adela",
     "apellido": "Mendoza",
-    "nombre del grupo": "Sra. Adela Mendoza",
+    "nombre del grupo": "Sres. Adela Mendoza y Agustín Jauregui",
     "grupo": 3,
     "email": "",
     "telefono": "+584169874748",
@@ -504,7 +504,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Nelson",
     "apellido": "Guevara",
     "nombre del grupo": "Flia. Guevara Salmerón",
@@ -518,7 +518,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaGuevaraSalmeron"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "André",
     "apellido": "Guevara",
     "nombre del grupo": "",
@@ -532,7 +532,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Daniel",
     "apellido": "Guevara",
     "nombre del grupo": "",
@@ -924,7 +924,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrtoDanielGalvis"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Anner",
     "apellido": "González",
     "nombre del grupo": "Anner González y Jessika Chavez",
@@ -938,7 +938,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/AnneryJessika"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Jessika",
     "apellido": "Chavez",
     "nombre del grupo": "",
@@ -1106,7 +1106,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraEdniHerrera"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Iván José",
     "apellido": "Herrera",
     "nombre del grupo": "Flia. Herrera Loreto",
@@ -1120,7 +1120,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaHerreraLoreto"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "María",
     "apellido": "de Herrera",
     "nombre del grupo": "",
@@ -1134,7 +1134,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Ivana",
     "apellido": "Herrera",
     "nombre del grupo": "",
@@ -1148,7 +1148,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Otoniel",
     "apellido": "Herrera",
     "nombre del grupo": "",
@@ -1162,7 +1162,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Jair",
     "apellido": "Herrera",
     "nombre del grupo": "",
@@ -1501,7 +1501,7 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Daniel",
     "apellido": "Pérez",
-    "nombre del grupo": "Flia. Pérez",
+    "nombre del grupo": "Flia. Pérez Gálviz",
     "grupo": 54,
     "email": "",
     "telefono": "+584249250156",
@@ -1514,7 +1514,7 @@ const data = JSON.parse(`[
   {
     "Enviado": "",
     "nombre": "Andrea",
-    "apellido": "Galvis de Pérez",
+    "apellido": "de Pérez",
     "nombre del grupo": "",
     "grupo": 54,
     "email": "",
@@ -1568,7 +1568,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraReinaArteaga"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Nelson",
     "apellido": "Peraza",
     "nombre del grupo": "Flia. Peraza Covault",
@@ -1582,7 +1582,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaPerazaCovault"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Mariú",
     "apellido": "de Peraza",
     "nombre del grupo": "",
@@ -1596,7 +1596,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Jonathan",
     "apellido": "Peraza",
     "nombre del grupo": "",
@@ -1610,7 +1610,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Eugenia",
     "apellido": "Peraza",
     "nombre del grupo": "",
@@ -1778,7 +1778,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Beatriz",
     "apellido": "Vidal",
     "nombre del grupo": "Hna. Beatriz Vidal",
@@ -1977,7 +1977,7 @@ const data = JSON.parse(`[
     "Enviado": "",
     "nombre": "Arelys",
     "apellido": "Lameda",
-    "nombre del grupo": "Srta. Arelys Lameda",
+    "nombre del grupo": "Sra. Arelys Lameda",
     "grupo": 71,
     "email": "arelyslameda@hotmail.com",
     "telefono": "+584142459059",
@@ -2072,7 +2072,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraBiggi"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Briceida",
     "apellido": "Marquez",
     "nombre del grupo": "Sra. Briceida Marquez y Srto. Maiker Castañeda",
@@ -2086,7 +2086,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaCastanedaMarquez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Maiker",
     "apellido": "Castañeda",
     "nombre del grupo": "",
@@ -2114,7 +2114,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraClaraNieto"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Cristel",
     "apellido": "Fernández",
     "nombre del grupo": "Sra. Cristel Fernández, Samuel y Abel Cuicas",
@@ -2128,7 +2128,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraCristelFernandez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Samuel",
     "apellido": "Cuicas",
     "nombre del grupo": "",
@@ -2142,7 +2142,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Abel",
     "apellido": "Cuicas",
     "nombre del grupo": "",
@@ -2716,7 +2716,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrMichelRaffoul"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Jelussy",
     "apellido": "Rojas",
     "nombre del grupo": "Sra. Jelussy y Srto. André Rojas",
@@ -2730,7 +2730,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/FliaRojas"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "André",
     "apellido": "Rojas",
     "nombre del grupo": "",
@@ -2814,7 +2814,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Joel",
     "apellido": "Arenas",
     "nombre del grupo": "Hno. Joel Arenas",
@@ -2912,7 +2912,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SraJudithFerraez"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Rafael",
     "apellido": "Contreras",
     "nombre del grupo": "Srs. Rafael y Laura Contreras",
@@ -2926,7 +2926,7 @@ const data = JSON.parse(`[
     "link": "https://abelyvaleska.com/invitacion/SrsRafaelyLauraContreras"
   },
   {
-    "Enviado": "",
+    "Enviado": "x",
     "nombre": "Laura",
     "apellido": "de Contreras",
     "nombre del grupo": "",
@@ -4897,6 +4897,426 @@ const data = JSON.parse(`[
     "tipo": "Instagram",
     "parentezco": "Hermana Bethel",
     "de": "Valeska",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Mita",
+    "apellido": "Muñoz",
+    "nombre del grupo": "Familia Torres Muñoz",
+    "grupo": 192,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Familia",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Jennifer",
+    "apellido": "Masterson",
+    "nombre del grupo": "Ms. Jennifer Masterson",
+    "grupo": 193,
+    "email": "jmasterson3365@comcast.net",
+    "telefono": "+17342392100",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Ms. Jennifer",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Ivis",
+    "apellido": "Alexis",
+    "nombre del grupo": "Sra. Ivis Alexis y familia",
+    "grupo": 194,
+    "email": "",
+    "telefono": "+17728129954",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "Ivis",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Haydee",
+    "apellido": "Samara",
+    "nombre del grupo": "Sra. Haydee Samara",
+    "grupo": 195,
+    "email": "",
+    "telefono": "+17863662057",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Esperanza",
+    "apellido": "Mendoza",
+    "nombre del grupo": "Sra. Esperanza Mendoza",
+    "grupo": 196,
+    "email": "",
+    "telefono": "+573002012952",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Gabriel",
+    "apellido": "Mendoza",
+    "nombre del grupo": "Sr. Gabriel Mendoza",
+    "grupo": 197,
+    "email": "",
+    "telefono": "+573045254607",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Alba",
+    "apellido": "Torres",
+    "nombre del grupo": "Sra. Alba Torres",
+    "grupo": 198,
+    "email": "",
+    "telefono": "+573044289281",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Lizet",
+    "apellido": "Alvear",
+    "nombre del grupo": "Sra. Lizet Alvear Torres",
+    "grupo": 199,
+    "email": "",
+    "telefono": "+573004827282",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Lizmar",
+    "apellido": "Alvear",
+    "nombre del grupo": "Sr. Lismar Alvear",
+    "grupo": 200,
+    "email": "",
+    "telefono": "+573002018564",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Jairo",
+    "apellido": "Torres",
+    "nombre del grupo": "Srs. Jairo y Teresa Torres",
+    "grupo": 201,
+    "email": "",
+    "telefono": "+584140969887",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Teresa",
+    "apellido": "Torres",
+    "nombre del grupo": "",
+    "grupo": 201,
+    "email": "",
+    "telefono": "+584148708584",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Luisana",
+    "apellido": "Torres",
+    "nombre del grupo": "Sra. Luisana Torres",
+    "grupo": 202,
+    "email": "",
+    "telefono": "+584249189425",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Maritza",
+    "apellido": "Lazarde",
+    "nombre del grupo": "Sra. Maritza Lazarde",
+    "grupo": 203,
+    "email": "",
+    "telefono": "+584249268016",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Lucelys",
+    "apellido": "Torres",
+    "nombre del grupo": "Sra. Lucelys Torres",
+    "grupo": 204,
+    "email": "",
+    "telefono": "+584249028993",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Luisana",
+    "apellido": "Cedeño",
+    "nombre del grupo": "Sra. Luisana Cedeño",
+    "grupo": 205,
+    "email": "",
+    "telefono": "+554198319393",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Irene",
+    "apellido": "Jhonston",
+    "nombre del grupo": "Sra. Irene Jhonston",
+    "grupo": 206,
+    "email": "",
+    "telefono": "+16178180012",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Ariana",
+    "apellido": "Daza",
+    "nombre del grupo": "Sra. Ariana Daza",
+    "grupo": 207,
+    "email": "",
+    "telefono": "+50688791315",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Mary",
+    "apellido": "Torres",
+    "nombre del grupo": "Sra. Mary Torres",
+    "grupo": 208,
+    "email": "",
+    "telefono": "+573122245581",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Scott",
+    "apellido": "Stonigthon",
+    "nombre del grupo": "Flia. Stonigthon",
+    "grupo": 209,
+    "email": "",
+    "telefono": "+16172725655",
+    "otro contacto": "",
+    "tipo": "Zoom",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Irene",
+    "apellido": "Stonigthon",
+    "nombre del grupo": "",
+    "grupo": 209,
+    "email": "",
+    "telefono": "+16178779425",
+    "otro contacto": "",
+    "tipo": "Zoom",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Lila",
+    "apellido": "Stonigthon",
+    "nombre del grupo": "",
+    "grupo": 209,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Zoom",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Paloma",
+    "apellido": "Stonigthon",
+    "nombre del grupo": "",
+    "grupo": 209,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Zoom",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Marena",
+    "apellido": "Palma",
+    "nombre del grupo": "Sra. Marena Palma",
+    "grupo": 210,
+    "email": "",
+    "telefono": "+584121092050",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Ana",
+    "apellido": "Machado",
+    "nombre del grupo": "Sra. Ana Machado",
+    "grupo": 211,
+    "email": "",
+    "telefono": "+584166855036",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Luisanyelis",
+    "apellido": "Cedeño",
+    "nombre del grupo": "Srta. Luisanyelis Cedeño",
+    "grupo": 212,
+    "email": "",
+    "telefono": "+584121171666",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Griseldina",
+    "apellido": "Zambrano",
+    "nombre del grupo": "Sra. Griseldina Zambrano",
+    "grupo": 213,
+    "email": "",
+    "telefono": "+584120132388",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Arelis",
+    "apellido": "Villasana",
+    "nombre del grupo": "Sra. Arelis Villasana",
+    "grupo": 214,
+    "email": "",
+    "telefono": "+584163130364",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Jose Antonio",
+    "apellido": "Pérez",
+    "nombre del grupo": "Sr. Jose Antonio Pérez",
+    "grupo": 215,
+    "email": "",
+    "telefono": "+584249538189",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Abel",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Idiomas",
+    "apellido": "Puentes",
+    "nombre del grupo": "El equipo de Idiomas Puentes",
+    "grupo": 216,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Ambos",
+    "link": ""
+  },
+  {
+    "Enviado": "",
+    "nombre": "Iglesia",
+    "apellido": "Ríos de Agua Viva",
+    "nombre del grupo": "Nuestros amados hermanos de Ríos de Agua Viva",
+    "grupo": 217,
+    "email": "",
+    "telefono": "",
+    "otro contacto": "",
+    "tipo": "Instagram",
+    "parentezco": "",
+    "de": "Ambos",
     "link": ""
   }
 ]`)

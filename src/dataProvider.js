@@ -1,5 +1,10 @@
 import data from "./data.js"
 
+const baseUrl = window.location.origin + window.location.pathname
+const queryString = window.location.search
+const urlParams = new URLSearchParams(queryString)
+const de = urlParams.get('anfitrion')
+
 const normalizeText = str => encodeURIComponent(str.normalize('NFD').replace(/\p{Diacritic}| |\./gu, ''))
 
 //${guests.length > 1 ? 'Les' : 'Te'}
@@ -17,7 +22,12 @@ Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}
 const guestsTable = []
 
 const guestHeads = data.filter(
-    (guest) => guest["nombre del grupo"] !== ''
+    (guest) => {
+        if (de) {
+            return guest["nombre del grupo"] !== '' && (guest.de === de)
+        }
+        return guest["nombre del grupo"] !== ''
+    } 
 )
 
 guestHeads.forEach(
@@ -37,16 +47,18 @@ guestHeads.forEach(
             nombre: guest.nombre,
             telefono: guest.telefono,
             parentezco: guest.parentezco,
-            anfitrion: guest.de
+            anfitrion: guest.de,
+            enviado: guest.Enviado != '' ? true : false
         }))]
         
         guestsRow.email = [...guestsGroup.map((guest) => ({
             nombre: guest.nombre,
             email: guest.email,
             parentezco: guest.parentezco,
-            anfitrion: guest.de
+            anfitrion: guest.de,
+            enviado: guest.Enviado != '' ? true : false
         }))]
-        
+
         guestsTable.push(guestsRow)
     }
 )
@@ -88,7 +100,7 @@ const fillTable = function (guestsTable) {
                 ${guestsRow.whatsapp.map(
                     (guest) => {
                         if (guest.telefono) return `
-                            <a target="_blank" href="https://wa.me/${guest.telefono}?text=${encodeURIComponent(guestsRow.inviteLink + ' ' + whatsappMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
+                            <a ${guest.enviado ? 'class="disabled"' : ''} target="_blank" href="https://wa.me/${guest.telefono}?text=${encodeURIComponent(guestsRow.inviteLink + ' ' + whatsappMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
                         `
                     }
                 )}
@@ -97,7 +109,7 @@ const fillTable = function (guestsTable) {
                 ${guestsRow.email.map(
                     (guest) => {
                         if (guest.email) return `
-                            <a target="_blank" href="mailto:${guest.email}?subject=${`Boda Abel y Valeska: ${guestsRow.group}`}&body=${encodeURIComponent(guestsRow.inviteLink + ' ' + emailMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
+                            <a ${guest.enviado ? 'class="disabled"' : ''} target="_blank" href="mailto:${guest.email}?subject=${`Boda Abel y Valeska: ${guestsRow.group}`}&body=${encodeURIComponent(guestsRow.inviteLink + ' ' + emailMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
                         `
                     }
                 ).join()}
