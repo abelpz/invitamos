@@ -100,7 +100,7 @@ const fillTable = function (guestsTable) {
                 ${guestsRow.whatsapp.map(
                     (guest) => {
                         if (guest.telefono) return `
-                            <a ${guest.enviado ? 'class="disabled"' : ''} target="_blank" href="https://wa.me/${guest.telefono}?text=${encodeURIComponent(guestsRow.inviteLink + ' ' + whatsappMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
+                            <a  target="_blank" href="https://wa.me/${guest.telefono}?text=${encodeURIComponent(guestsRow.inviteLink + ' ' + whatsappMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
                         `
                     }
                 )}
@@ -109,7 +109,7 @@ const fillTable = function (guestsTable) {
                 ${guestsRow.email.map(
                     (guest) => {
                         if (guest.email) return `
-                            <a ${guest.enviado ? 'class="disabled"' : ''} target="_blank" href="mailto:${guest.email}?subject=${`Boda Abel y Valeska: ${guestsRow.group}`}&body=${encodeURIComponent(guestsRow.inviteLink + ' ' + emailMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
+                            <a  target="_blank" href="mailto:${guest.email}?subject=${`Boda Abel y Valeska: ${guestsRow.group}`}&body=${encodeURIComponent(guestsRow.inviteLink + ' ' + emailMessage(guest,guestsRow.includes))}">Invitar a ${guest.nombre}</a>
                         `
                     }
                 ).join()}
