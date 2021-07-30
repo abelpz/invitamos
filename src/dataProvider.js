@@ -11,12 +11,12 @@ const normalizeText = str => encodeURIComponent(str.normalize('NFD').replace(/\p
 
 let whatsappMessage = (guest, guests) => `
 
-Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
+Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska. Ya están disponible los datos para que ${guests.length > 1 ? 'puedan' : 'puedas'} participar en la boda este sábado. En la invitación encontrás el enlace que necesitas para poder presenciar la boda. Aquí te volvemos a enviar el enlace a la invitación. 😊
 `
 
 let emailMessage = (guest, guests) => `
 
-Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska, estamos muy emocionados por ${guests.length > 1 ? 'darles' : 'darte'} una muy buena noticia. En el enlace ${guests.length > 1 ? 'les' : 'te'} contamos todo 😊.
+Hola ${(guest.parentezco != '') ? guest.parentezco.toLowerCase() : guest.nombre}! Te escriben Abel y Valeska. Ya están disponible los datos para que ${guests.length > 1 ? 'puedan' : 'puedas'} participar en la boda este sábado. En la invitación encontrás el enlace que necesitas para poder presenciar la boda. Aquí te volvemos a enviar el enlace a la invitación. 😊
 `
 
 const guestsTable = []
